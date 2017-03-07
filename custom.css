@@ -1,0 +1,581 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle);
+body {
+    background: #445772;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 0 0 0 0 ;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    max-width: 1400px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+header .mobile-navigation .menu {
+    display: none;
+}
+article {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding: 50px;
+}
+article .the-content a {
+    color: #445772;
+    word-wrap: break-word;
+}
+article .the-content .read-more {
+    font-size: 15px;
+}
+article .title {
+    text-align: center;
+}
+article .the-content p {
+    font-family: 'Roboto', Arial;
+    color: #22264b;
+    line-height: 30px;
+}
+article .the-content blockquote p {
+    color: #445772;
+}
+
+article h1.title {
+    font-size: 35px;
+    line-height: 45px;
+}
+article h2.title {
+    font-size: 30px;
+    line-height: 40px;
+}
+article h3.title {
+    font-size: 25px;
+    line-height: 35px;
+}
+article h4.title {
+    font-size: 20px;
+}
+article .the-content img {
+    width: auto;
+}
+.page article .title {
+    margin-bottom: 20px;
+}
+.left-headline article {
+    padding: 0 5% 0 5%;
+    font-size: 20px;  
+}
+.left-headline article .title {
+    text-align: left;
+}
+.left-headline article.post .the-content p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.left-headline article .the-content img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+.center-headline article .title {
+    text-align: left;
+}
+.center-headline article.post .the-content p {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+.center-headline article .the-content img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 2%;
+}
+
+.center-headline article.post:first-child {
+    padding: 0;
+}
+.center-headline article.post {
+    border-bottom: 1px solid #445772;
+    padding: 0 5% 5% 5%;
+    margin-bottom: 5%;
+}
+.center-headline article.post:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.right-headline article .title a {
+    color: #fff;
+}
+.right-headline article .title a:hover {
+    
+}
+.right-headline article.post {
+    border-top: 1px solid #445772;
+    padding: 5% 0 5% 0;
+}
+.right-headline article.post:first-child {
+    border-top: none;
+}
+.right-headline article.post .the-content {
+    background: ivory;
+    
+}
+.right-headline article.post .the-content p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 20px 10px 20px;    
+}
+.right-headline article .title {
+    padding: 2% 10% 2% 10%; 
+    line-height: 25px;
+    background: #445772;    
+    text-align: left;
+}
+.right-headline article .the-content img {
+    width: 100%;
+    margin-top: 2%;
+}
+a {
+    color: #22264b;
+}
+hr {
+    background: #445772;
+    border: none;
+    height: 1px;
+}
+a:hover {
+    color: #b56969;
+}
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    font-family: 'Roboto', Arial;
+}
+.page article .title {
+    color: #445772;
+    font-family: 'Roboto', Arial;
+}
+.site-description {
+    font-style: normal;
+}
+header nav ul li {
+    float: none;
+    display: inline;
+    margin: 0 50px 0 0;
+}
+header nav ul li a{          
+    color: #565656;  
+    font-family: 'Roboto', Arial;
+    font-size: 30px;
+}
+header nav ul li a:hover{  
+    border-top: 2px solid #445772;
+    color: #22264b;  
+}
+
+header nav ul li:last-child { margin: 0 0 0 0; }
+
+header #brand {
+
+    margin: 0 0 0 0;
+    position: relative;
+    background: url("../../themes/news/images/toronto.png") #fff;
+    background-position: 56% 100%;
+    background-repeat: no-repeat;
+    background-size: 17%;
+    height:140px;
+}
+header #brand .toronto {
+    position:  absolute;
+    top: -105px;
+    left: 0;
+}
+header #brand .site-title {
+    z-index: 1;
+}
+header #brand .toronto img {
+    height: auto;
+    width: 230px;
+}
+header #brand h1 {
+    margin-bottom: 0;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom: 18px;
+    color: #0e1717;
+    font-size: 70%
+}
+header #brand .site-title a {
+    font-family: 'Roboto', Arial;
+    color: #0e1717;
+    text-shadow: 2px 2px 5px #808080;
+}
+header #brand .site-description {
+    color: #565656;
+    display: none;
+}
+main.main-fluid {
+    background: #fff;
+    max-width: none;
+    padding: 0;
+    max-width: 1400px;
+}
+main #primary {
+    padding: 0;
+    margin-top: 180px;
+    position: relative;
+}
+
+main #primary #content {
+    width: 100%;
+    
+    margin: 0;
+}
+.headline-container {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f8f8f8+22,ffffff+50,ffffff+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f8f8f8 22%, #ffffff 50%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f8f8f8 22%,#ffffff 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 0%,#f8f8f8 22%,#ffffff 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera
+    display: flex;    12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+/*
+.post:nth-child(odd)		{ background-color:#fff; }
+.post:nth-child(even)		{ background-color:#e5e0cf; }
+*/
+.menu {
+    text-align: center;
+    position: relative;
+    height: auto;
+    border-top: 1px solid #565656;
+    border-bottom: 1px solid #565656;
+    background: #fff;
+}
+.menu ul {
+    display: inline-block;
+}
+
+/***************************************** SIDE BAR *******************************************/
+#sidebar {
+	z-index: 2;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #445772;
+    color: #ffffff;
+    padding: 90px 40px 40px 40px;
+    box-shadow: 0px 10px 9px -10px rgba(0,0,0,0.75);
+    font-family: 'Roboto', Arial;
+    -webkit-box-shadow: 10px 10px 9px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 9px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 9px -10px rgba(0,0,0,0.75);
+    border-radius: 0 15px 15px  0;
+}
+#sidebar ul {
+    margin-left: 0;
+    display: none;
+    max-width: 380px;    
+}
+#sidebar div:first-child {
+    margin-bottom: 20px;
+    
+}
+#sidebar .side-title {
+   font-family: 'Roboto', Arial;
+   color: beige; 
+   cursor: pointer;
+}
+#sidebar .side-title:hover {
+    color: #22264b;
+    background: beige;
+    padding-left: 20px; 
+}
+#sidebar ul li, #sidebar a, #sidebar .recentcomments a  {
+   font-family: 'Roboto', Arial;
+   color: #ffffff; 
+   list-style: none;
+   display: block !important;
+}
+
+#sidebar a, #sidebar .recentcomments a {
+    padding: 2px 10px 2px 10px !important;
+}
+#sidebar a:hover, #sidebar .recentcomments a:hover {
+    background: #007998;
+}
+#sidebar #searchsubmit {
+    font-family: 'Roboto', Arial;
+    background: #ffffff;
+    color: #445772;
+    padding: 1em 1.5em 1em;
+}
+/***************************************** END SIDE BAR *******************************************/
+
+/***************************************** FOOTER *************************************************/
+footer, footer a {
+    background: #445772;
+    padding-top: 40px;
+    color: #e8edf3;
+    font-size: 12px;
+}
+footer a:hover {
+    color: #e6cf8b;
+}
+/***************************************** END FOOTER **********************************************/
+
+#expandIcon {
+    z-index: 5;
+    top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.container {
+    margin: 0 auto !important;
+    width: auto;
+}
+
+.left-headline, .center-headline {
+    float: left;
+}
+ .right-headline {
+    float: right;
+ }
+.left-headline {
+    width: 19%;
+    padding: 2% 1% 0 1%;
+} 
+.center-headline {
+    width: 50%;
+    -webkit-box-shadow: 0px 10px 11px 0px rgba(50, 50, 50, 0.51);
+    -moz-box-shadow:    0px 10px 11px 0px rgba(50, 50, 50, 0.51);
+    box-shadow:         0px 10px 11px 0px rgba(50, 50, 50, 0.51);
+
+    padding: 2% 0 0 0;
+}
+.right-headline {   
+    width: 25%;
+    margin: 2% 2% 0 0;
+}
+
+#respond, .commentlist, #comments {
+    margin: 40px;
+}
+#pagination .next-page {
+    border-right: none;
+}
+.commentlist .comment {
+    position: inherit;
+}
+.commentlist .comment-author img {
+    position: relative;
+    left: 0;
+}
+.next-page a, .past-page a {
+    font-size: 30px;
+    
+}
+clear {
+    clear: both;
+}
+
+
+
+/*************************************** MOBILE STYLING ***************************************************************/
+
+@media only screen and (max-width: 767px) {
+    #wpadminbar {
+        position: fixed;
+        margin-bottom: 46px;
+    }
+    input[type=text] {
+        width: 50%;
+    }
+    .commentlist .comment {
+        position: inherit;
+        margin: 0 0 10px 0;
+    }
+    .commentlist .comment:last-child {
+        margin: 0 0 0 0;
+    }
+    h3#comments {
+        margin: 0 0 0 40px;
+    }
+    .left-headline, .center-headline, .right-headline {
+        float: none;
+        width: 96%;
+    }
+    .screen-reader-text {
+        font-size: 15px;   
+    }
+    header nav ul li a {
+        font-size: 20px;
+        color: #000;
+    }
+    header .mobile-navigation ul li {
+        margin: 0 0 0 0;
+    }
+    header .main-navigation {
+        border-top: 1px solid #565656;
+    }
+    header .main-navigation .menu{
+        display: none;
+    }
+    header .mobile-navigation {
+        display: block;
+    }  
+    header #sidebar ul {
+        margin: 0 0 0 0;
+        max-width: none;
+    }
+    header .mobile-navigation div:first-child {
+        background: none;
+        display: inline-block;
+        border: none;
+        text-align: left;
+    }
+    header .mobile-navigation div:first-child ul {
+        padding: 0;
+        margin: 0;
+    }
+    header #sidebar div:first-child {
+        margin: 18% 0 20px 1%;
+    }
+    header #sidebar div {
+        margin: 0 2% 0 2%;
+    }
+    header #sidebar div:after {
+        clear: both;
+    }
+    header #sidebar div ul {
+        display: none;
+    }
+    header #sidebar .mobile-navigation div:first-child ul {
+        display: block;
+    }
+    header #sidebar {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 93vh;
+        border-radius:  0 0 0 0;
+        overflow-y: scroll;
+    }
+    header #sidebar #searchsubmit {
+        padding: 10px 15px 10px;
+    }
+    header #sidebar div ul li {
+        font-size: 20px;
+        list-style: none;
+        margin: 0 2% 1px 2%;
+        border: 2px solid #5c7699;
+
+        background: rgba(92,125,153,1);
+        background: -moz-linear-gradient(top, rgba(92,125,153,1) 0%, rgba(84,115,140,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(92,125,153,1)), color-stop(100%, rgba(84,115,140,1)));
+        background: -webkit-linear-gradient(top, rgba(92,125,153,1) 0%, rgba(84,115,140,1) 100%);
+        background: -o-linear-gradient(top, rgba(92,125,153,1) 0%, rgba(84,115,140,1) 100%);
+        background: -ms-linear-gradient(top, rgba(92,125,153,1) 0%, rgba(84,115,140,1) 100%);
+        background: linear-gradient(to bottom, rgba(92,125,153,1) 0%, rgba(84,115,140,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c7d99', endColorstr='#54738c', GradientType=0 );
+    }
+
+    header #sidebar .mobile-navigation div:first-child {
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    
+    /* Wordpress default list menu */
+    header #sidebar .side-title{
+        display: block;
+        position: relative;
+        margin-bottom: 1px;
+        height: 40px;
+        border:2px solid #5c7699;
+  
+        padding: 2% 2% 2% 2%;
+        
+        font-size: 30px;
+        line-height: 40px;
+        
+        background: rgba(92,118,153,1);
+        background: -moz-linear-gradient(top, rgba(92,118,153,1) 0%, rgba(84,108,140,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(92,118,153,1)), color-stop(100%, rgba(84,108,140,1)));
+        background: -webkit-linear-gradient(top, rgba(92,118,153,1) 0%, rgba(84,108,140,1) 100%);
+        background: -o-linear-gradient(top, rgba(92,118,153,1) 0%, rgba(84,108,140,1) 100%);
+        background: -ms-linear-gradient(top, rgba(92,118,153,1) 0%, rgba(84,108,140,1) 100%);
+        background: linear-gradient(to bottom, rgba(92,118,153,1) 0%, rgba(84,108,140,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c7699', endColorstr='#546c8c', GradientType=0 );
+    }
+    /* Wordpress sub menu.  Fills the whole box. */
+    header #sidebar div ul li a { 
+        font-size: 20px;
+        padding: 2% 2% 2% 2% !important;      
+        line-height: 30px;
+        color: #fff;
+        display: block !important;         
+    }  
+   
+    /* Main Menu box */
+    header #sidebar .mobile-navigation div:first-child ul li {
+        display: block;
+        text-align: left;
+        margin: 0;
+        border: 2px solid #535757;
+        background: rgba(64,64,64,1);
+        background: -moz-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(14,23,23,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(64,64,64,1)), color-stop(100%, rgba(14,23,23,1)));
+        background: -webkit-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(14,23,23,1) 100%);
+        background: -o-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(14,23,23,1) 100%);
+        background: -ms-linear-gradient(top, rgba(64,64,64,1) 0%, rgba(14,23,23,1) 100%);
+        background: linear-gradient(to bottom, rgba(64,64,64,1) 0%, rgba(14,23,23,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#0e1717', GradientType=0 );
+    }
+    /* Main Menu link. Fills the whole box */
+    header #sidebar .mobile-navigation div:first-child ul li a {
+        font-size: 30px;
+        padding: 2% 2% 3% 2%;
+        line-height: 40px;
+        color: #fff;
+        display: block;   
+    }  
+    footer .container {
+        position: inherit;
+    }
+    
+    .center-headline {
+        width: 100%;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        padding: 2% 0 0 0;
+    }
+    .right-headline {
+        margin: 2% 2% 0 2%;
+    }
+    article{
+        padding: 0;
+    }
+    article .the-content p {
+        font-size: 20px;
+        padding: 0 5% 5% 5%;
+    }
+    article .the-content img.size-full {
+        width: 100%;
+    }
+    article .the-content img.size-medium, article .the-content img.size-thumbnail {
+        width: auto;
+    }
+    #respond {
+        margin-top: 0;
+    }
+}
+
+/*************************************** END MOBILE STYLING ***************************************************************/
